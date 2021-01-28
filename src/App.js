@@ -1,13 +1,13 @@
-import React, { useState, createContext } from "react";
+import React, { useState } from "react";
 import { Route } from "react-router-dom";
 import data from "./data";
+import 
 
 // Components
 import Navigation from "./components/Navigation";
 import Products from "./components/Products";
 import ShoppingCart from "./components/ShoppingCart";
 
-export const componentContext = createContext();
 
 function App() {
   const [products] = useState(data);
